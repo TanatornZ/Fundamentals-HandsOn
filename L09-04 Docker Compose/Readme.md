@@ -42,11 +42,11 @@ This fails because the localhost port 5000 is already assigned.
 
 Change the ports value from
 
-    - "5000:80"
+    - "5000:5000"
 
 to
 
-    - "5001:80"
+    - "5001:5000"
 
 ## Deploy again
 

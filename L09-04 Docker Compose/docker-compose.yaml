@@ -1,5 +1,6 @@
 services:
   web-fe:
+    # NOTE: Specify the Docker image to use for the web front-end
     build: .
     command: python app.py
     ports:

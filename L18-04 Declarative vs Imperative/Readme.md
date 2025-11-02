@@ -7,7 +7,7 @@ Let's deploy an Nginx container using both methods.
     kubectl create deployment mynginx1 --image=nginx
 
 ## Declarative
-
+    <!-- -f for file  -->
     kubectl create -f deploy-example.yaml
 
 ## Cleanup
