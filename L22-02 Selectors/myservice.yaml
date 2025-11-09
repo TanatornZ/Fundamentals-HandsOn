@@ -6,6 +6,7 @@ spec:
   ports:
   - port: 80
     targetPort: 80
+  # filter to select pods with these labels
   selector:
     app: myapp
     type: front-end

@@ -17,6 +17,7 @@ kind: StatefulSet
 metadata:
   name: nginx-sts
 spec:
+  # Must match the name of the headless service
   serviceName: nginx-headless
   replicas: 3
   selector:
